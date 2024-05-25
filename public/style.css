@@ -1,0 +1,102 @@
+/* Переменные */
+:root{
+    /* Цвета */
+    --bg-container: #e8a06d;
+    --bg-form: #d9ddde;
+    --text-color: #827a7a;
+    --btn-text: white;
+    --btn-bg-hover: #292727;
+
+    /* Шрифт */
+    --font-family: "Roboto", sans-serif;
+    --font-weight: 400;
+    --font-style: normal;
+}
+
+
+/* Общие настройки */
+body{
+    margin: 0;
+    background-color: var(--bg-container);
+    box-sizing: border-box;
+}
+.content{
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 500px;
+    background-color: var(--bg-form);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Кнопка */
+.btn{
+    width: 300px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    color: var(--btn-text);
+    background-color: var(--bg-container);
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: var(--btn-bg-hover);
+}
+
+
+
+/* Коментарии */
+.comment{
+    margin-top: 10px;
+}
+.comment_form{
+    width: 290px;
+    height: 185px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    resize: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+
+/* Текст */
+.text{
+    margin-top: 50px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+    color: var(--text-color);
+    font-size: 30px;
+}
+
+
+
+/* Пользователь */
+.username{
+    margin-top: 10px;
+}
+.username_form{
+    width: 290px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
